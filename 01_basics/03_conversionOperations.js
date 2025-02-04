@@ -23,3 +23,28 @@ let num=33
 let stringnum=String(num)
 console.log(typeof stringnum)
 console.log(typeof num)
+
+
+//*************OPERATIONS**********/
+let number=5
+let negnum=-number
+console.log(negnum)
+
+//arithmetic
+console.log(2+3)
+console.log(2*3)
+console.log(2/3)
+console.log(2%3)
+console.log(2**3)
+console.log(2-3)
+
+let str1="hello"
+let str2="world"
+console.log(str1 + " "+str2)
+
+console.log(1+"2");
+console.log("1"+"2"+2)
+console.log(1+"2"+2)
+console.log(1+2+"2")
+console.log(+true)
+console.log(+"")
