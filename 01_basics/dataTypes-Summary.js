@@ -31,3 +31,25 @@ const myfn=function(){
 console.log(typeof score ,typeof scoreValue,typeof isLoggedIn,typeof temp,typeof userEmail,typeof id,typeof anotherId);
 
 console.log(typeof fruits,typeof obj,typeof myfn);
+
+
+
+//**********************//
+//Stack(Primitive)
+//Heap(Non-Primitive)
+ 
+let Name= "Niv"
+let anotherName=Name
+anotherName="nivedika"
+console.log(Name);
+console.log(anotherName);
+
+let user={
+    email:"niv@gmail.com",
+    upi:"user@bly"
+
+}
+let userTwo=user
+userTwo.email="userTwo@gmail.com"
+console.log(userTwo.email);
+console.log(user.email);
